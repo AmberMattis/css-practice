@@ -26,6 +26,7 @@ body {
 }
 
 .header{
+    position: relative;
     height: 95vh; /* header is 95% of viewport height*/
     background-image: linear-gradient(
             to right bottom,
@@ -36,4 +37,15 @@ body {
     background-size: cover;
     background-position: top; /* makes sure that the top the of image stays the same regardless of screen size */
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); /* Allows the changing of that headers shape, in this case a diagonal clip out.*/
+}
+
+.logo-box{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+
+}
+
+.logo{
+    height: 35px;
 }
